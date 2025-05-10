@@ -1,5 +1,6 @@
 # sql2gorm-tool
-SQL DDL 转gorm struct 工具
+
+SQL DDL 转 gorm struct 工具
 
 ## Mac编译
 
@@ -36,3 +37,14 @@ sql2gorm
 ## Windows使用说明
 
 直接双击打开 sql2gorm.exe
+
+## 截图
+
+- 首页<br>
+<img width="800" height="555" src="screenshot-1.png"/>
+
+- 单个 DDL 转换<br>
+<img width="800" height="555" src="screenshot-2.png"/>
+
+- 多个 DDL 转换<br>
+<img width="800" height="555" src="screenshot-3.png"/>
