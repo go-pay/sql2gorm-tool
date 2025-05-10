@@ -11,11 +11,11 @@ const (
 type Option func(*options)
 
 type options struct {
-	Charset        string
-	Collation      string
-	JsonTag        bool
-	TablePrefix    string
-	ColumnPrefix   string
+	Charset   string
+	Collation string
+	JsonTag   bool
+	//TablePrefix    string
+	//ColumnPrefix   string
 	NoNullType     bool
 	NullStyle      NullStyle
 	Package        string
@@ -40,17 +40,17 @@ func WithCollation(collation string) Option {
 	}
 }
 
-func WithTablePrefix(p string) Option {
-	return func(o *options) {
-		o.TablePrefix = p
-	}
-}
+//func WithTablePrefix(p string) Option {
+//	return func(o *options) {
+//		o.TablePrefix = p
+//	}
+//}
 
-func WithColumnPrefix(p string) Option {
-	return func(o *options) {
-		o.ColumnPrefix = p
-	}
-}
+//func WithColumnPrefix(p string) Option {
+//	return func(o *options) {
+//		o.ColumnPrefix = p
+//	}
+//}
 
 func WithJsonTag() Option {
 	return func(o *options) {
