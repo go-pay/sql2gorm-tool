@@ -41,10 +41,10 @@ sql2gorm
 ## 截图
 
 - 首页<br>
-<img width="800" height="555" src="screenshot-1.png"/>
+<img width="1000" height="832" src="screenshot-1.png"/>
 
 - 单个 DDL 转换<br>
-<img width="800" height="555" src="screenshot-2.png"/>
+<img width="1000" height="832" src="screenshot-2.png"/>
 
 - 多个 DDL 转换<br>
-<img width="800" height="555" src="screenshot-3.png"/>
+<img width="1000" height="832" src="screenshot-3.png"/>
