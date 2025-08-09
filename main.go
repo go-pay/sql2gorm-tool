@@ -2,6 +2,9 @@ package main
 
 import (
 	"fmt"
+	"strings"
+	"time"
+
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/container"
@@ -11,8 +14,6 @@ import (
 	"github.com/go-pay/sql2gorm-tool/parser"
 	"github.com/go-pay/sql2gorm-tool/themes"
 	"github.com/go-pay/xlog"
-	"strings"
-	"time"
 )
 
 func main() {

@@ -2,18 +2,19 @@ package parser
 
 import (
 	"fmt"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/ast"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/mysql"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types"
-	"github.com/blastrain/vitess-sqlparser/tidbparser/parser"
-	"github.com/jinzhu/inflection"
-	"github.com/pkg/errors"
 	"go/format"
 	"io"
 	"sort"
 	"strings"
 	"sync"
 	"text/template"
+
+	"github.com/blastrain/vitess-sqlparser/tidbparser/ast"
+	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/mysql"
+	"github.com/blastrain/vitess-sqlparser/tidbparser/dependency/types"
+	"github.com/blastrain/vitess-sqlparser/tidbparser/parser"
+	"github.com/jinzhu/inflection"
+	"github.com/pkg/errors"
 )
 
 var (
@@ -25,7 +26,7 @@ var (
 )
 
 var acronym = map[string]struct{}{
-	//"ID":  {},
+	"ID": {},
 	//"IP":  {},
 	//"RPC": {},
 }
